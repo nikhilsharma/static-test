@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eSAKSHI Portal Static Guide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            text-align: center;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+        }
+        .row {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 1;
+            min-width: 200px;
+            max-width: 25%;
+            margin: 10px;
+            padding: 10px;
+            background-color: #f2f2f2;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .column-row {
+            background-color: #e6e6e6;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        .nested-item {
+            background-color: #d9d9d9;
+            margin: 5px 0;
+            padding: 8px;
+            border: 1px dashed #bbb;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .a:hover {
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>eSAKSHI Portal Overview - <a href="Complete_Workflow/index.html">Full Work Flow </a> </h1>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <div class="column-row">MP User
+                    <div class="nested-item">
+                        <a href="MP_User/Make_Recommendation/index.html">Add Recommendation</a>
+                    </div>
+                    <div class="nested-item">Edit Recommendation</div>
+                    <div class="nested-item">Delete Recommendation</div>
+                    <div class="nested-item">View Current Status of Work</div>
+                </div>
+            </div>
+
+            <div class="column">NDA User</div>
+
+            <div class="column">
+                <div class="column-row">IDA Main
+                    <div class="nested-item">
+                        <a href="IDA_Main/Manage_MP_Work_Recommendation/index.html">Manage MP Work Recommendation</a>
+                    </div>
+                    <div class="nested-item">
+                        <a href="IDA_Main/Sanction_Work_To_IA/index.html">Sanction Work To IA</a>
+                    </div>
+                    <div class="nested-item">
+                        <a href="IDA_Main/Cancel_Feasibility/index.html">Cancel Feasibility</a>
+                    </div>
+                    <div class="nested-item">
+                        <a href="IDA_Main/Manage_IA_Pullback/index.html">Manage IA Pull Back</a>
+                    </div>
+                    <div class="nested-item">
+                        <a href="IDA_Main/Create-IA-Department/index.html">Create IA Department </a>
+                    </div>
+                    <div class="nested-item">
+                        <a href="IDA_Main/Create-IA-Employees/index.html">Create IA Employee(s)</a>
+                    </div>
+                    <div class="nested-item">
+                        <a href="IDA_Main/Create-IA-Hierarchy/index.html">Create / Manage IA Hierarchy</a>
+                    </div>
+                </div>
+
+                <div class="column-row">IDA Checker
+                    <div class="nested-item">Fund Disbursement</div>
+                    <div class="nested-item">Vendor Management</div>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="column-row">IA Main
+                    <div class="nested-item">
+                        <a href="IA_Main/Feasibility/index.html">Feasibility</a>
+                    </div>
+                    <div class="nested-item">
+                        <a href="IA_Main/Holding-Account-Mapping/index.html">Holding Account Mapping</a>
+                    </div>
+                    <div class="nested-item">Fund Approver Process</div>
+                    <div class="nested-item">Vendor Management</div>
+                </div>
+                <div class="column-row">IA Maker
+                    <div class="nested-item">Fund Disbursement</div>
+                    <div class="nested-item">Vendor Management</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

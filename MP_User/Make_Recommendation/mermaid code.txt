@@ -1,0 +1,10 @@
+flowchart TD
+    A[Start] --> B[Login at eSAKSHI Portal]
+    B --> C[Click on My Modules]
+    C --> D[Add New Work Recommendation]
+    D --> E[Add Development Work Recommendation]
+    E --> F[Enter IDA and Location Details]
+    F --> G[IA executes the work on ground]
+    G --> H[Submit and Enter OTP]
+    H --> I[Work Flows To IDA Login]
+    I --> J[End]
